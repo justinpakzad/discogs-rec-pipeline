@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Set default region and account ID if not provided
-region="${1:-us-east-1}"  # Default to 'us-east-1'
-account_id="${2:-982081066484}"  # Your AWS account ID
-repo_name="${3:-discogs-rec-feedback}"  # Your ECR repository name
-image_name="${4:-discogs-rec-feedback}"  # Local image name
-version="${5:-latest}"  # Image version (update here as needed)
+
+region="${1:-us-east-1}" 
+account_id="${2:-account-id-here}"  
+repo_name="${3:-repo-name-here}"  
+image_name="${4:-image-name-here}" 
+version="${5:-latest}"  
 
 # Login to AWS ECR
 aws ecr get-login-password --region $region | docker login --username AWS --password-stdin $account_id.dkr.ecr.$region.amazonaws.com

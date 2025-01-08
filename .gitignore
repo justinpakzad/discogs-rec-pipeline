@@ -7,3 +7,4 @@ config/
 generate_sql.py
 tests
 .env
+.DS_Store
