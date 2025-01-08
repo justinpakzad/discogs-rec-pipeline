@@ -1,6 +1,6 @@
 # Discogs Rec Pipeline
 
-The Discogs Rec Pipeline simulates synthetic user feedback data based on recommendations from the [discogs-rec app](https://github.com/justinpakzad/discogs-rec). Utilizing AWS Lambda, S3, EC2, Snowflake, and Airflow, the pipeline handles data generation, processing, and modeling to create a workflow for managing and analyzing user interaction data.
+The Discogs Rec Pipeline simulates synthetic user feedback data based on recommendations from the [discogs-rec app](https://github.com/justinpakzad/discogs-rec). Utilizing AWS Lambda, S3, Snowflake, and Airflow, the pipeline handles data generation, processing, and modeling to create a workflow for managing and analyzing user interaction data.
 
 
 ## Data Flow Diagram
