@@ -1,0 +1,9 @@
+airflow/discogs-rec-airflow.pem
+__pycache__/
+notebooks/
+logs/
+plugins/
+config/
+generate_sql.py
+tests
+.env
