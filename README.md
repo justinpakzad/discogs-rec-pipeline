@@ -4,7 +4,7 @@ The Discogs Rec Pipeline simulates synthetic user feedback data based on recomme
 
 
 ## Data Flow Diagram
-![Alt text](images/d_flow.png)
+![Alt text](images/data_flow.png)
 
 
 ## Repository Structure
@@ -18,4 +18,4 @@ The Discogs Rec Pipeline simulates synthetic user feedback data based on recomme
 
 
 ## Data Model
-![Alt text](images/data_model.png)
+![Alt text](images/data_model_.png)
